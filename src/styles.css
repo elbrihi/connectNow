@@ -1,0 +1,669 @@
+
+body
+{
+  box-sizing: border-box;
+  background-color: #081221;
+  margin: 0;
+  padding: 0;
+}
+.header
+{
+  /*min-height: 30vh;*/
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav
+{
+  margin: 7% 10%;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.nav .nav-links ul
+{
+  display: flex;
+}
+.nav .nav-links ul li
+{
+  list-style: none;
+  margin: 15px 90px;
+}
+
+.nav .nav-links ul a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+  margin-top: 0px;
+
+}
+
+.container .list-container
+{
+  width: 90%;
+
+  display: flex;
+  margin: 0 85px;
+  justify-content: space-between;
+}
+
+.container .list-container .left-col
+{
+  background-color: #0e1a2b;
+  padding: 0 ;
+  height: 450px;
+  color: #fff;
+}
+.container .list-container .left-col .sidebar
+{
+  margin: 17px 15px;
+  height: auto;
+}
+.container .list-container .left-col .sidebar h2
+{
+  margin-top: 0px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.container .list-container .left-col .sidebar h3
+{
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.container .list-container .left-col .sidebar input
+{
+  background-color: #182c47;
+  height: 25px;
+  width: 317px;
+  color: #fff;
+  border: none;
+
+}
+
+
+
+button{
+
+  background-color: #5692e8;
+  padding: 5px 22px;
+  width: 100px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: 40px;
+  border: none;
+}
+
+
+
+.filter
+{
+  margin: 15px 0;
+}
+
+.order-by
+{
+  position: relative;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.order-by .fa-arrow-up
+{
+  background-color: #5692e8;
+  padding: 16px 16px;
+
+}
+
+.order-by select
+{
+  background-color: #182c47;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  width: 95%;
+  height: 48px;
+  border: none;
+}
+.order-by option
+{
+  border: none;
+}
+
+.order-by button
+{
+  position: absolute;
+  margin-top: 250px;
+  right: 0;
+
+}
+
+/*----------------- right column  -----------------*/
+
+
+.container .list-container .right-col
+{
+  /*  flex-basis: 73%;*/
+  width: 100%;
+  margin: 0 30px;
+  margin-right: 5px;
+  color: #fff;
+}
+.description
+{
+  margin-bottom: 2px;
+  font-size: 12px;
+  padding-right: 90px;
+  font-family: 'Montserrat', sans-serif;
+}
+.game
+{
+  background-color: #0e1a2b;;
+  margin:0;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+}
+.game-title
+{
+  margin: 0 10px;
+}
+.game-title .date
+{
+  margin-top: 0px;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+.black
+{
+  background-color: black;
+  position: relative;
+  padding-right: 150px;
+  /*height: 50px;
+  width: 50px;*/
+
+}
+.black .btn-nmb
+{
+  background-color: #5692e8 ;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  text-align: center;
+  top: 5%;
+  left: 1040px;
+}
+.game-id
+{
+  display: block;
+  margin-right: 1px;
+  margin-top: 22px;
+}
+
+/*------------------- begin contact container -----------------*/
+
+.contact-container
+{
+  width: 45%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.contact-container .part1
+{
+  padding: 3px 5px;
+}
+
+.contact-container p
+{
+  ont-family: 'Montserrat', sans-serif;
+}
+.contact-container .part2
+{
+  background: #0e1a2b;
+  padding: 6px 20px;
+  height: 430px;
+
+}
+
+.contact-container .part1 h2
+{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-container .user-details
+{
+  width: 100%;
+  position: relative;
+  height: 374px;
+}
+.contact-container .user-details input
+{
+  width: 100%;
+
+}
+.input-group
+{
+  margin-bottom: 30px;
+}
+
+input, textarea
+{
+
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #182c47;
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: #182c47;
+  border: none;
+
+}
+.part2 .title
+{
+  margin-bottom: 10px ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container .user-details label
+{
+  margin-bottom: 35px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.contact-container .title
+{
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.contact-container .user-details .row
+{
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+.contact-container .user-details textarea
+{
+  width: 98%;
+  height: 150px;
+  border: none;
+
+}
+.contact-container .user-details button
+{
+    position: absolute;
+    background-color: #5692e8;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    outline: none;
+    bottom: 0px;
+    right: 0;
+    border: none;
+
+}
+.star
+{
+  color: #5692e8;
+}
+
+/*
+.contact-container .part2 button
+{
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 85px;
+  height: 35px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 218px;
+}*/
+
+/*------------------- end contact container -----------------*/
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+  body {
+  }
+  .nav
+  {
+    margin: 2px;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .nav .nav-links ul li
+  {
+
+    margin: 0;
+    padding: 20px;
+
+
+  }
+  .nav .nav-links ul
+  {
+    flex-direction: column;
+  }
+  .container .list-container
+  {
+    flex-direction: column;
+    margin: 0 25px;
+
+    width: 93%;
+
+  }
+  .scor-order-by
+  {
+    display: flex;
+    width: 100%;
+    height: 106px;
+    margin: 0;
+
+  }
+  .container .list-container .left-col .sidebar input
+  {
+    width: 100px;
+  ;
+  }
+  .filter{
+    margin: 6px 0px;
+  }
+  .order-by
+  {
+    height: 100px;
+    width: 50%;
+    margin: 25px 20px;
+
+
+  }
+  .order-by select
+  {
+    margin-bottom: 0;
+  }
+  .filter input
+  {
+  }
+  button
+  {
+    margin: 250px -170px;
+    border: none;
+  }
+  .container .list-container .left-col
+  {
+    height: 270px;
+  }
+
+  .container .list-container .right-col
+  {
+    margin: 50px 0px;
+  }
+  .nav
+  {
+  }
+  .game
+  {
+    height: 165px;
+  }
+
+  .black .btn-nmb
+  {
+    left:600px;
+  }
+}
+
+
+@media (max-width: 480px)
+{
+  .nav
+  {
+    margin: 50px 0px;
+  }
+  .nav .nav-links ul
+  {
+
+    flex-direction: column;
+
+
+  }
+  .nav .nav-links ul li
+  {
+    margin: 0;
+    padding: 10px 10px ;
+
+  }
+
+  .container .list-container
+  {
+    flex-direction: column;
+    margin: 0 20px ;
+    margin-right: 5px;
+
+  }
+  .container .list-container .left-col .sidebar input
+  {
+    height: 25px;
+    width: 383px;
+
+  }
+  .container .list-container .left-col
+  {
+    height: 390px;
+  }
+  .order-by select
+  {
+
+    width: 84%;
+  }
+  .order-by
+  {
+    width: 108%;
+    height: 100px;
+
+  }
+  .order-by button
+  {
+    margin-top: 170px;
+    width: 400px;
+    left: 0px;
+  }
+
+  .black
+  {
+    width: 76%;
+    height: 50%;
+  }
+
+  .game
+  {
+
+    flex-direction: column;
+    height: 300px;
+
+  }
+  .container .list-container .right-col
+  {
+    width: 100%;
+    margin: 70px 0;
+  }
+  .description
+  {
+    margin-bottom: 10px;
+  }
+  .black .btn-nmb
+  {
+    left: 0;
+    margin-top: 10px;
+    margin-left: 360px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 480px) {
+
+    body {
+        background-color: red;
+    }
+    .nav
+    {
+        flex-direction: column;
+    }
+    .ul
+    {
+        border: 2px solid #5692e8;
+    }
+
+}*/
+
+/* Media Query for low resolution  Tablets, Ipads */
+/*@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}*/
+
+
+
+
+/*.container .contact-container
+{
+
+
+  width: 45%;
+  padding: 10px;
+  margin: auto;
+}
+.contact-container .part1
+{
+  background-color: darkgreen;
+}
+.contact-container .part2
+{
+  background-color: red;
+  padding: 25px 30px;
+  display: flex;
+  width: 100%;
+  height: 450px;
+}
+.contact-container .part2 .title
+{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.contact-container .part2 .title:before
+{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: #182c47;
+  left: 0;
+  bottom: 0;
+
+}
+.contact-container .part2 .input-group
+{
+  margin-bottom: 30px;
+}
+.user-details
+{
+  width: 750px;
+  position: relative;
+  height: 250px;
+  border: 2px solid springgreen;
+}
+.contact-container .part2 input
+{
+  width: 93%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+.contact-container .part2  textarea
+{
+  width: 97%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+
+.contact-container .part2 label
+{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+
+}
+.contact-container .part2 button
+{
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 85px;
+  height: 35px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 218px;
+}
+.contact-container .part2 .row
+{
+  display: flex;
+  justify-content: space-between;
+
+}*/

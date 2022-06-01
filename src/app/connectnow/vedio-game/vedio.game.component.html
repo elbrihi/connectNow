@@ -1,0 +1,64 @@
+<app-header [dropdownItems] = "distanceDropdownItems" ></app-header>
+<div class="container">
+  <div class="list-container">
+    <div class="left-col">
+      <div class="sidebar">
+        <h2>Filter Results</h2>
+
+
+        <div class="filter">
+          <h3>Name(contains)</h3>
+          <input type="text" placeholder="Text string"  [(ngModel)]="vedio.name" (ngModelChange)="storeName($event)">
+        </div>
+
+
+        <div class="scor-order-by">
+          <div class="filter">
+            <h3>Minimum Score</h3>
+            <input type="text" placeholder="1-10"  [(ngModel)] ="minScore" (change)="minimumScore(minScore)" >
+          </div>
+          <div class="order-by">
+            <i class="fa-solid fa-arrow-up"></i>
+            <select name="plan" class="select" [(ngModel)] ="selected" (change)="valueChange()" >
+              <option *ngFor="let order of orderBy" [value]="order.value">
+                   {{  order.viewValue }}
+              </option>
+
+            </select>
+
+            <button type="button" class="btn clear-button" (click)="onClick()">
+              Clear
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="right-col">
+      <div class="game" *ngFor="let game of package ;let indexOfelement=index;">
+        <div class="black">
+          <div class="btn-nmb">
+           <span class="game-id"> {{ game.id }}</span>
+          </div>
+        </div>
+
+
+        <div class="game-title" >
+          <h3>{{ game.name }}</h3>
+          <p><span class="date">  Release Date: {{ timestampToDate(game.first_release_date)  }}</span> </p>
+          <p class="description"> [Summary] {{ shortSummary(game.summary) }} ...
+
+          </p>
+        </div>
+ </div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,23 @@
+.clean{
+  background-color: red;
+}
+.inactive
+{
+  display: none;
+}
+
+.shadow
+{
+  position: relative;
+}
+
+.shadow .active
+{
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  font-size: 60px;
+  color: #c1d1e8;
+  z-index: -1;
+
+}
